@@ -1,2 +1,3 @@
 contributors of this project
-Alexis Elliot
+* Alexis Elliot
+* Destiny Nwafor
