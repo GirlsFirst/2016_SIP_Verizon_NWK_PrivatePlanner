@@ -10,7 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160810194442) do
+ActiveRecord::Schema.define(version: 20160812180350) do
+
+  create_table "posts", force: :cascade do |t|
+    t.string   "Event"
+    t.string   "Time"
+    t.string   "Location"
+    t.text     "Discription"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "rails", force: :cascade do |t|
+    t.string   "generate"
+    t.string   "scaffold"
+    t.string   "Post"
+    t.string   "event"
+    t.string   "location"
+    t.text     "discription"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

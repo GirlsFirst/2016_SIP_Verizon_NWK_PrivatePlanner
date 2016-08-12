@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 # login signout ect.
 gem 'devise'
+# social media type stuff
+gem 'social-share-button'
 #gem 'figaro ' --> figaro gem for securely managing credentials
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Capistrano for deployment
