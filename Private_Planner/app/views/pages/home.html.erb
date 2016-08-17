@@ -1,12 +1,11 @@
-<div class = "jumbotron">
-	<h1>Welcome To Private Planner</h1>
-
-	<% if user_signed_in? %>
-		# do something 
-	<% else %>
-		<%= link_to "Login", new_user_session_path, class: "btn btn-info" %>
-		<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-info" %>
-	<% end %>
+<% if user_signed_in? %>
+  <% else %>
+    <%= link_to "Login", new_user_session_path, class: "btn btn-info btn-lg" %>
+    <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-info btn-lg" %>
+  <% end %>
+<p> </p>
+<div class = "jumbotron" id= "font">
+	<center><h1>Welcome To Private Planner</h1></center>
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -16,7 +15,7 @@
 	    <li data-target="#myCarousel" data-slide-to="2"></li>
 	    <li data-target="#myCarousel" data-slide-to="3"></li>
 	  </ol>
-
+  <center>
   <!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 	   <div class="item active">
@@ -35,6 +34,7 @@
       <img src="http://bloximages.newyork1.vip.townnews.com/buckscountycouriertimes.com/content/tncms/assets/v3/editorial/d/80/d80bec4f-c0b1-5cc8-882f-f662dd60e593/539dc39edb2a0.image.jpg" alt="Event 4" class="carousel-image">
     </div>
   </div>
+  </center>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -48,3 +48,9 @@
 </div>
 </div>
 
+<div class= "jumbotron" id = "font">
+  <P> Here at Private Planner, we aim to provide an easy, organized way to plan events and connect students from different boarding and day schools. </P>
+
+  <p> To plan an event, simply log in (or sign up!) and go to the events tab. Then add the date, time, location, and a description! </p>
+
+  <center><img src = "https://dl.dropboxusercontent.com/s/sk0m5zgoihoxxgw/Logo.jpg?dl=0" alt = "logo"></center>
