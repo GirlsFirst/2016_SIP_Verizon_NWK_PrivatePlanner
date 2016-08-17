@@ -1,15 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
-$body-bg :						#AEA8D3;
+$body-bg :						 #e6ccff;
 $font-family-sans-serif: 		'Oxygen', 'Helvetica Neue', Helvetica, Aria, sans-serif;
 @import 'bootstrap';
 p{
 	font-size: 20px;
 }
+
 .loginPage {
-	background-image: url("http://blogs-images.forbes.com/steveolenski/files/2015/07/Messe_Luzern_Corporate_Event.jpg");
+	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-	width: 100%;
+	background-size: 1250px 1000px;
+	max-width: 100%;
 	height: auto;
-	color: navy;
+	display: block;
+	opacity: 0.8;
+	color: white;
 }
 
+.jumbotron {
+	font-family: 'Raleway', sans-serif;
+}
+
+.field {
+	color: black;
+}
+
+.actions {
+	color: black;
+}
+
+#font {
+	
+}
+
+#font2 {
+	
+}
+
+.bios {
+
+}
+
+//#AEA8D3
